@@ -25,5 +25,5 @@ lace = "<version>"
 The python library can be installed with pip
 
 ```console
-pip install
+pip install pylace
 ```

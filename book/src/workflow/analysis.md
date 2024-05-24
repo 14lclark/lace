@@ -56,7 +56,7 @@ animals.clustermap(
 {{#include ../pcc/html/animals-depprob.html}}
 
 In rust, we ask about dependence probabilities between individual pairs of
-features
+features.
 
 <div class=tabbed-blocks>
 
@@ -71,8 +71,8 @@ let depprob_flippers = animals.depprob(
 ## Prediction
 
 Now that we know which columns are predictive of each other, let's do some
-predicting. We'll predict whether an animal swims. Just *an* animals. Not an
-animals with flippers, or a tail. Any animal.
+predicting. We'll predict whether an animal swims. Just *an* animal. Not an
+animal with flippers, or a tail. Any animal.
 
 <div class=tabbed-blocks>
 
@@ -98,7 +98,7 @@ Which outputs
 ```
 
 The first number is the prediction. Lace predicts that *an* animal does not
-swims (because most of the animals in the dataset do not swim). The second
+swim (because most of the animals in the dataset do not swim). The second
 number is the *uncertainty*. Uncertainty is a number between 0 and 1
 representing the disagreement between states. Uncertainty is 0 if all the
 states completely agree on how to model the prediction, and is 1 if all the
@@ -197,7 +197,7 @@ The uncertainty is really high! We've successfully confused lace.
 
 ## Evaluating likelihoods
 
-Let's compute the likelihood to see what is going on
+Let's compute the likelihood to see what is going on.
 
 <div class=tabbed-blocks>
 

@@ -1,7 +1,7 @@
 # Mutual information
 
 Mutual information (often referred to in code as `mi`) is a measure of the
-information shared between two variables. Is is mathematically defined as
+information shared between two variables. It is mathematically defined as
 
 \\[
 I(X;Y) = \sum_{x \in X} \sum_{y \in Y} p(x,y) \log \frac{p(x, y)}{p(x)p(y)},

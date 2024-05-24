@@ -70,7 +70,7 @@ circumstances, and employing a variety of kernels leads to better result.
 
 The vast majority of the fitting runtime is updating the row-category
 assignment and the column-view assignment. Other updates such as feature
-components parameters, CRP parameters, and prior parameters, take an
+components parameters, CRP parameters, and prior parameters, take some
 (relatively) insignificant amount of time. Here we discuss the MCMC kernels
 responsible for the vast majority of work in Lace: the row and column
 reassignment kernels:
